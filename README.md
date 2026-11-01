@@ -73,3 +73,5 @@ gpt-machado-de-assis-pytorch/
 ## Observações e próximos passos
 
 Como próximos passos, vale trocar o nível de caractere por um tokenizador de subpalavras, que reduz o contexto necessário e deixa as palavras mais consistentes, treinar por mais iterações com mais dados da Wikipédia (só 25 milhões de caracteres foram usados) e avaliar o fine-tuning de forma mais objetiva, por exemplo com perplexidade, já que a avaliação do texto gerado foi só visual.
+
+Os resultados deste projeto podem ser melhores. O foco foi o aprendizado do conteúdo do bootcamp e não obter o melhor desempenho possível, por isso não foi feita uma busca exaustiva por hiperparâmetros, arquiteturas ou dados.
